@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> main </title>
+    <style>
+        @import "./css/main.css" screen;
+        body {
+  margin: 0;
+  background-image: url(/source/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+body:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(0,0,0,0), rgba(255,255,255,.8));
+}
+    </style>        
+    <script src="./js/index.js"></script>
+    
+</head>
+
+<body>
+    <nav> 
+        <ul class="topmenu">
+            <li><a href="#">About</a></li>
+            <li><a href="./galery.html" class="down">Portfolio</a>
+              
+              <ul class="submenu">
+                <li><a href="galery.html">Slide Show</a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+              </ul>
+           
+            </li>
+            <li><a href="/contacts.html" class="down">Contact</a>
+              <ul class = "submenu">
+                <li><a href="https://vk.com/johnlumic">VK</a></li>
+                <li><a href="https://instagr.am/johnlumic">Instagram</a></li>
+              </ul>
+            </li>
+          </ul>
+    </nav>
+    <div id='about'>
+      <table>
+        <tr class="abtr">
+          <td class='abimg'><img src="/source/photo/about/about.jpg"></td>
+          <td class="abtext"><p>some text some text some text some text some text</p></td>
+        </tr>
+      </table>
+    <div id='about'>
+
+      <div id='ind'>
+        <a href="index.html" class='back'>back</a>
+      </div>
+
+</body>
+</html>

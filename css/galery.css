@@ -1,0 +1,38 @@
+body{
+    margin: 5%;
+    position: relative;
+    max-width: 100%;    
+}
+body::before{
+}
+img{
+    position: relative;
+    max-width: 100%;
+}
+table{
+    width: 100%;
+}
+#full{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0%;
+}
+.left{
+position: relative;
+}
+.centr{
+position: relative;
+}
+.right{
+position: relative;
+}
+.close{
+    z-index: 444;
+    display: inline;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
