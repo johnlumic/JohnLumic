@@ -1,4 +1,3 @@
-
 let open1 = () => {
     let div = document.createElement('div');
     div.id = 'full';
@@ -12,6 +11,8 @@ let open1 = () => {
 
     let blur = document.getElementById('blur')
     blur.style.filter = 'blur(5px)';
+
+    
 }
 let but_close = () => {
     document.getElementById('full').remove();
@@ -20,3 +21,24 @@ let but_close = () => {
     let nav = document.getElementById('nav');
     nav.style.filter = 'blur(0px)';
 }
+
+
+let op = document.createElement('div');
+op.innerHTML = `<td id='center' onclick='next()'><img id='slider' src='./source/photo/img/${number}.jpg' class='img' onclick='close()'></td>`
+let number = 0;
+let the = document.getElementById('the');
+
+let ph1 = () =>{
+    number = 1;
+    document.the.append(op);
+}
+let ph2 = () =>{
+    number = 2;
+}
+let ph3 = () =>{
+    number = 3;
+}
+let ph4 = () =>{
+    number = 4;
+}
+

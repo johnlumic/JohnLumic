@@ -11,8 +11,8 @@ table{
     border-spacing: 0px;
 }
 button{
-    border: white;
-    background: white;
+    border: 0px;
+    background: none;
     outline: none;
 }    
 a{
@@ -49,19 +49,20 @@ a{
 .but{
     width: 40px;
     float: left;
-    background-color: white
+    background: none;
 }
 .mirrorbut{
     width: 40px;
     float: left;
     transform: scale(-1, 1);
-    background-color: white;
+    background: none;
 }
 
 .img{
     max-width: 700px;
 }
 img#buttplay{
+    background: none;
     height: 30px;
 }
 #leftabout{
@@ -74,7 +75,6 @@ img#buttplay{
     transition: 0.5s;
     opacity: 1;
 }
-
 #center{
     width: 33%;
     text-align: center;
@@ -84,14 +84,17 @@ td#right{
     width: 33%;
     text-align: right;
     top: 85%;
+    background: none;
 }
 td#left{
   background: none;
     width: 33%;
     text-align: left;
     top: 85%
+    
 }
 td#play{
+  background: none;
     width: 33%;
     text-align: center;
 }

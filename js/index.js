@@ -27,7 +27,7 @@ let preload = () =>{
 };
 let mouseOver = () => {
     let indexPage = document.getElementById('indexPage');
-    indexPage.style.filter = 'blur(2px)';
+    indexPage.style.filter = 'blur(2.5px)';
 }
 let mouseOut = () => {
     let indexPage = document.getElementById('indexPage');

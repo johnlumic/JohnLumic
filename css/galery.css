@@ -3,8 +3,7 @@ body{
     position: relative;
     max-width: 100%;    
 }
-body::before{
-}
+
 img{
     position: relative;
     max-width: 100%;
@@ -35,4 +34,7 @@ position: relative;
     position: fixed;
     top: 0%;
     right: 0%;
+}
+button{
+    border: none; outline: none;
 }

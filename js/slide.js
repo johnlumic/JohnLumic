@@ -1,4 +1,3 @@
-
      var images = [
         '/source/photo/img/1.jpg',
         '/source/photo/img/2.jpg',
@@ -17,7 +16,7 @@
          '/source/pause.png',
      ]
      let about = [
-         'photo \n1',
+         'photo 1',
          'photo 2',
          'photo 3',
          'photo 4',
