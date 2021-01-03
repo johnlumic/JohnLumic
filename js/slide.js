@@ -1,19 +1,19 @@
      var images = [
-        '/source/photo/img/1.jpg',
-        '/source/photo/img/2.jpg',
-        '/source/photo/img/3.jpg',
-        '/source/photo/img/4.jpg',
+        './source/photo/img/1.jpg',
+        './source/photo/img/2.jpg',
+        './source/photo/img/3.jpg',
+        './source/photo/img/4.jpg',
      ];
      var test2 = [
-        '/source/photo/test2/1.jpg',
-        '/source/photo/test2/2.jpg',
-        '/source/photo/test2/3.jpg',
-        '/source/photo/test2/4.jpg',
+        './source/photo/test2/1.jpg',
+        './source/photo/test2/2.jpg',
+        './source/photo/test2/3.jpg',
+        './source/photo/test2/4.jpg',
      ]
      var playscore = 0;
      let butt = [
-         '/source/play.png',
-         '/source/pause.png',
+         './source/play.png',
+         './source/pause.png',
      ]
      let about = [
          'photo 1',
@@ -34,9 +34,7 @@
         slider.style.opacity='0';
         slider.style.transition='1s'
         setTimeout(fade, 1000);
-        let el = document.getElementById('pcount');
-        el.innerHTML = `${num+1} из ${images.length}`; 
-         
+        count();         
     }
     let fade = () =>{
         slider.src = images[num];
@@ -58,7 +56,8 @@
     // счётчик номера изображения
     let count = () => {
         let el = document.getElementById('pcount');
-        el.innerHTML = `${num+1} из ${images.length}`;
+        el.innerHTML = `${num} из ${images.length}`;
+       
     }        
     // следующее изображение, но по-другому
     let move = () => {

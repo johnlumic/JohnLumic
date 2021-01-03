@@ -12,19 +12,24 @@ let open1 = () => {
     let blur = document.getElementById('blur')
     blur.style.filter = 'blur(5px)';
 
-    
+    let costl = document.createElement('button');
+    costl.id = 'costl';
+    costl.innerHTML="<button onclick='but_close()' class='costl'></button>"
+    document.body.append(costl);
 }
 let but_close = () => {
     document.getElementById('full').remove();
     document.getElementById('close').remove();
+    document.getElementById('costl').remove();
     document.getElementById('blur').style.filter = 'blur(0px)';
     let nav = document.getElementById('nav');
     nav.style.filter = 'blur(0px)';
 }
 
 
+
 let op = document.createElement('div');
-op.innerHTML = `<td id='center' onclick='next()'><img id='slider' src='./source/photo/img/${number}.jpg' class='img' onclick='close()'></td>`
+op.innerHTML = `<td id='center' onclick='next()'><img id='slider' src='./source/photo/img/1.jpg' class='img' onclick='close()'></td>`
 let number = 0;
 let the = document.getElementById('the');
 

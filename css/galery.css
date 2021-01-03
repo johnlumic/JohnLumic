@@ -34,7 +34,22 @@ position: relative;
     position: fixed;
     top: 0%;
     right: 0%;
+    border: none; outline: none;
+    background: none;
+
 }
 button{
     border: none; outline: none;
+}
+.costl{
+    display: inline;
+    position: fixed;
+    z-index: 444;
+    border: none; 
+    outline: none;
+    background: none;
+    width: 15%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
 }
