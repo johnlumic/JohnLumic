@@ -53,3 +53,6 @@ button{
     top: 0%;
     right: 0%;
 }
+.frame{
+    z-index: 666;
+}

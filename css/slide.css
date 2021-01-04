@@ -72,8 +72,10 @@ img#buttplay{
     text-align: center;
 }
 #leftabout:hover{
-    transition: 0.5s;
+    transition: 0s;
     opacity: 1;
+    background: linear-gradient(to top #000 #fff);
+    backdrop-filter: blur(5px);
 }
 #center{
     width: 33%;
@@ -127,7 +129,11 @@ td#count{
     opacity: 0;
     transition: 1s;
 }
+#leftpan{
 
+
+  
+}
 
 
 

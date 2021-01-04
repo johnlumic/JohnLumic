@@ -1,7 +1,7 @@
 let open1 = () => {
     let div = document.createElement('div');
     div.id = 'full';
-    div.innerHTML = '<iframe src="./wind.html" width="100%" height="100%" frameborder="0"> </iframe>';
+    div.innerHTML = '<iframe src="./wind.html" width="100%" height="100%" frameborder="0" class="frame"> </iframe>';
     document.body.append(div);
 
     let close_but = document.createElement('button');
