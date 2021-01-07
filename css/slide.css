@@ -58,6 +58,7 @@ a{
     background: none;
 }
 .costl{
+ display: none;
  border:none;
  background: none;   
 }
