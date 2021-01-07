@@ -57,7 +57,9 @@ a{
     transform: scale(-1, 1);
     background: none;
 }
-
+.costl{
+ background: none;   
+}
 .img{
   display: inline;
     z-index: 555;
