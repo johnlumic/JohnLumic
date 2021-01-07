@@ -58,6 +58,7 @@ a{
     background: none;
 }
 .costl{
+    visibility: hidden;
  display: none;
  border:none;
  background: none;   
