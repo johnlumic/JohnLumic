@@ -119,6 +119,12 @@ height: 50%;
 img{
   width:70%;
 }
+img:hover{
+  transition: 0.1s;
+  filter: brightness(110%);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
 #ind{
   position: fixed;
   bottom: 0%;
@@ -128,4 +134,7 @@ img{
   text-decoration: none;
   color: #fff;
   font-family: 'Kaushan Script', cursive;
+}
+button{
+  display: contents;
 }
