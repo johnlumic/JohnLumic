@@ -31,47 +31,47 @@
                 </li>
               </ul>
         </nav>
-            <table>
+            <table class='list'>
                 <tr>
                     <td>
-                        <img src="./source/photo/min_img/1.jpg" onclick="open1()">
+                        <img src="./source/photo/min_img/1.jpg" onclick="op1()" class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/2.jpg" onclick="open1()">
+                        <img src="./source/photo/min_img/2.jpg" onclick="op2()" class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/3.jpg" onclick="open1()">
+                        <img src="./source/photo/min_img/3.jpg" onclick="op3()" class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/4.jpg" onclick="open1()">
+                        <img src="./source/photo/min_img/4.jpg" onclick="op4()" class="set">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="./source/photo/min_img/1.jpg">
+                        <img src="./source/photo/min_img/1.jpg" class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/2.jpg">
+                        <img src="./source/photo/min_img/2.jpg" class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/3.jpg">
+                        <img src="./source/photo/min_img/3.jpg"class="set"> 
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/4.jpg">
+                        <img src="./source/photo/min_img/4.jpg"class="set">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="./source/photo/min_img/1.jpg">
+                        <img src="./source/photo/min_img/1.jpg"class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/2.jpg">
+                        <img src="./source/photo/min_img/2.jpg"class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/3.jpg">
+                        <img src="./source/photo/min_img/3.jpg"class="set">
                     </td>
                     <td>
-                        <img src="./source/photo/min_img/4.jpg">
+                        <img src="./source/photo/min_img/4.jpg"class="set">
                     </td>
                 </tr>
             </table>
@@ -79,5 +79,27 @@
         <div id='ind'>
             <a href="index.html" class='back'>back</a>
           </div>
+
+
+
     </body>
+    <!-- Новый фрейм -->
+    <div id="frame">
+        <table class='tabFrame'>
+            <tr> 
+                <td id='leftabout' ><p id="leftpan" > .. </p></td>
+                <td id='center' onclick='next()'></td>
+                <td id='rightabout' onclick="but_close()"></td>
+            </tr>
+             <tr> <!-- счётчик фото -->
+                <td id="count" colspan="3"></td>
+             </tr>
+             <tr>
+                <td id="right"> <button onclick="prev()" > <img src='./source/st.png' class="but"> </button></td>
+                <td id="play"><button onclick="play()"><img src="./source/play.png" id='buttplay'/></button></td>
+                <td id='left'> <button onclick="next()"> <img src='./source/st.png' class='mirrorbut'> </button> </td>
+            </tr>
+        </table>
+    </div>
+
 </html>
