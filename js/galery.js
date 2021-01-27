@@ -65,6 +65,18 @@ var images = [
     './source/photo/img/3.jpg',
     './source/photo/img/4.jpg',
  ];
+var images_bw =[
+    './source/photo/img/bw/1.jpg',
+    './source/photo/img/bw/2.jpg',
+    './source/photo/img/bw/3.jpg',
+    './source/photo/img/bw/4.jpg',
+    './source/photo/img/bw/5.jpg',
+    './source/photo/img/bw/6.jpg',
+    './source/photo/img/bw/7.jpg',
+    './source/photo/img/bw/8.jpg',
+    './source/photo/img/bw/9.jpg',
+    './source/photo/img/bw/10.jpg',
+];
  var playscore = 0;
  let butt = [
      './source/play.png',

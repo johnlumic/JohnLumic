@@ -17,7 +17,7 @@
                   
                   <ul class="submenu">
                     <li><a href="galery.html">Slide Show</a></li>
-                    <li><a href="">#</a></li>
+                    <li><a href="/galery_bw.html">b/w</a></li>
                     <li><a href="">#</a></li>
                     <li><a href="">#</a></li>
                   </ul>
@@ -87,16 +87,16 @@
     <div id="frame">
         <table class='tabFrame'>
             <tr> 
-                <td id='leftabout' ><p id="leftpan" > .. </p></td>
+                <td id='leftabout' onclick="but_close()" ></td>
                 <td id='center' onclick='next()'></td>
                 <td id='rightabout' onclick="but_close()"></td>
             </tr>
-             <tr> <!-- счётчик фото -->
-                <td id="count" colspan="3"></td>
-             </tr>
+            <tr>
+                <td colspan="3"><p id="leftpan"> .. </p></td>
+            </tr>
              <tr>
                 <td id="right"> <button onclick="prev()" > <img src='./source/st.png' class="but"> </button></td>
-                <td id="play"><button onclick="play()"><img src="./source/play.png" id='buttplay'/></button></td>
+                <td id="count"></td>
                 <td id='left'> <button onclick="next()"> <img src='./source/st.png' class='mirrorbut'> </button> </td>
             </tr>
         </table>
