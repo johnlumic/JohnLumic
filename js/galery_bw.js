@@ -76,10 +76,16 @@ var images_bw =[
      './source/pause.png',
  ]
  let about = [
-     'катя',
-     'туман',
-     'череп',
-     'котятки',
+     'me',
+     'legs',
+     'scull',
+     'nick',
+     'sheeps',
+     'mother',
+     'tv',
+     'cage',
+     'lil doge',
+     'circul',
  ]
 let num = 0;
 let i = num+1;
