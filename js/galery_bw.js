@@ -102,7 +102,7 @@ let t;
 
     slider.style.opacity='0';
     slider.style.transition='1s'
-    setTimeout(fade, 1000);
+    setTimeout(fade, 000);
     count();         
 
 }
@@ -118,9 +118,10 @@ function prev() {
         num = images_bw.length-1;
      }
     slider.style.opacity='0';
+    i--;
     slider.style.transition='1s'
     setTimeout(fade, 1000);
-    i--
+    
     count();
 
 }
@@ -136,7 +137,7 @@ let move = () => {
     if(num >= images_bw.length) {
         num = 0;
     }            
-    slider.style.opacity='0';
+    slider.style.visibility='hidden';
     slider.style.transition='1s'
     setTimeout(fade, 1000);
 }
@@ -172,7 +173,3 @@ body.style.backgroundImage=`${images[num]}`;
 }
 setInterval(indexPage(),1000);
 */
-
-let back = () => {
-window.location.href = '/index.html'
-}

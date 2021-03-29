@@ -174,6 +174,3 @@ body.style.backgroundImage=`${images[num]}`;
 setInterval(indexPage(),1000);
 */
 
-let back = () => {
-window.location.href = '/index.html'
-}
